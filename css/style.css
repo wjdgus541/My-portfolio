@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
+@import "reset.css";
+
 /* css */
 @import "header.css";
 @import "main.css";
