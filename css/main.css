@@ -1,0 +1,58 @@
+.main{
+    text-align: center;
+    display:flex;
+    justify-content :center;
+}
+
+.main__thumbnails__content {
+    width: 400px;
+    border:1.5px solid rgba(255,255,255, 0.5);
+    margin : 0;
+    margin-bottom: 15px;
+    padding : 3px;
+}
+.main__thumbnails__content a img {
+    width: 400px;
+    height: 250px;
+}
+.main__thumbnails__content p {
+    color : rgba(255,255,255, 0.8);
+    font-family: 'Nanum Gothic';
+    margin:0;
+    padding:15px;
+}
+
+/* 786px 이상 */
+@media screen and (min-width : 768px){
+    .main{
+        width : 800px;
+    }
+    .main__thumbnails__content{
+        width : 350px;
+    }
+    .main__thumbnails__content a img{
+        width: 350px;
+        height: 250px;
+    }
+    .main__thumbnails{
+        column-count : 2;
+        column-gap : 5px;
+    }
+}
+
+/* 992px 이상 */
+@media screen and (min-width : 992px){
+    .main{
+    width : 1200px;
+    }
+    .main__thumbnails__content{
+        width : 350px;
+    }
+    .main__thumbnails__content a img{
+        width: 350px;
+        height: 250px;
+    }
+    .main__thumbnails{
+        column-count : 3;
+    }
+}

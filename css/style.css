@@ -1,0 +1,13 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* css */
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+body{
+    background-image: url(../img/back.jpg);
+    background-size:cover;
+}
+
+
